@@ -74,7 +74,7 @@ func WithSseDebug() ClientOption {
 
 func WithAdminEmailPassword22(email, password string) ClientOption {
 	return func(c *Client) {
-		c.authorizer = newAuthorizeEmailPassword(c.client, c.url+"/api/admins/auth-with-password", email, password)
+		c.authorizer = newAuthorizeEmailPassword(c.client, c.url+"/api/collections/_superusers/auth-with-password", email, password)
 	}
 }
 

@@ -1,4 +1,4 @@
-module github.com/pluja/pocketbase
+module github.com/oliyo2023/pocketbase
 
 go 1.23
 
